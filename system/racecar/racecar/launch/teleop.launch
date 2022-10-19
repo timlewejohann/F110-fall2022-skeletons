@@ -3,6 +3,11 @@
   <arg name="racecar_version" default="racecar-v2" />
   <arg name="run_camera" default="false"/>
 
+<node pkg="urg_node" type="urg_node" output="screen" name="urg_node" respawn="true">
+      <param name="ip_address" value="192.168.0.15" />
+      <param name="frame_id" value="base_laser_link" />
+</node>
+
 
   <include file="$(find racecar)/launch/includes/$(arg racecar_version)-teleop.launch.xml">
     <arg name="racecar_version" value="$(arg racecar_version)" />
