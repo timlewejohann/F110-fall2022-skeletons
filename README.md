@@ -1,21 +1,4 @@
-# This repo is no longer supported. Updated skeleton codes can be found here: https://github.com/f1tenth/f1tenth_labs
-
-# f110-fall2018-course
-Skeleton codes for F110 Fall 2018 course at UPenn.
-
-In order to add the contents of this repository to your workspace on your local machine, do the following:
-
-Clone this repository into a folder on your computer
-```bash
-$ cd ~/sandbox (or whatever folder you want to work in)
-$ git clone https://github.com/mlab-upenn/f110-fall2018-skeletons.git
-```
-
-We begin by creating a workspace. You can call your workspace anything, for the purposes of this setup guide we call our workspace f110_ws. In your root folder, execute these commands:
-```bash
-$ mkdir -p ~/f110_ws/src
-```
-
+#Skeleton Code for the Praktikum Autonomous Driving 2022
 Copy the contents of this repository into ~/f110_ws/src
 ```bash
 $ cp -r f110-fall2018-skeletons f110_ws/src
